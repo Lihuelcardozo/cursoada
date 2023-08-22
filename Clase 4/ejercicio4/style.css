@@ -1,0 +1,102 @@
+body{
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color:#DEE2E6 ;
+    margin-right: 450px;
+    margin-left: 450px;
+}
+
+.datos{
+    padding-top: 10px; /**para que baje el padding**/
+    text-align: center;
+    margin: 5%;
+
+  
+}
+
+.precio{
+    font-weight:bolder;
+    color: red;
+}
+
+
+button { /***saque datos de la pagina de crear botones*/
+    transition: all .5s ease;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    font-family:'Hind Siliguri', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 13px;
+    background-color : transparent;
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+    
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.tarjeta{
+    box-shadow: -1px 7px 13px -3px rgba(0,0,0,0.53);
+    -webkit-box-shadow: -1px 7px 13px -3px rgba(0,0,0,0.53);
+    -moz-box-shadow: -1px 7px 13px -3px rgba(0,0,0,0.53);
+    display: flex;
+    align-items: center;
+    height: 100vh; /**corresponde a la altura máxima posible de la ventana gráfica**/
+}
+.tarjeta figure{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    overflow: hidden; /**sirve para que se utilice solo el la altura y el ancho pastado y el resto se oculte, sistesis, sirve para ocultar objetos fuera del contenedor**/
+    border-radius: 6px; 
+    box-shadow: 3px 15px 50px rgba(0,0,0,0.50); /**Sirve para agregar sombra**/
+    cursor: pointer;
+    
+}
+.tarjeta figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out; /**transicion, osea movimiento*https://developer.mozilla.org/en-US/docs/Web/CSS/transition**/
+}
+
+.tarjeta figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 99, 122, 0.5); /**los ultimos numeros son para hacer transparente el color*/
+    opacity: 0%;
+    text-align: center;
+    visibility: hidden;
+  
+}
+
+.tarjeta figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.tarjeta figure:hover > .capa p{
+    margin-top: 100px; /**va asi abajo*/
+    margin-bottom: 15px ;
+}
+.tarjeta figure .capa p {
+    color: white;
+    transition: all 500ms ease-out;
+}

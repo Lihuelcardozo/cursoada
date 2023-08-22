@@ -1,0 +1,30 @@
+/**Colores**/
+/**Letras: cad2c5**/ 
+/**Encabezado: 84a98c**/
+/**Fondo: 52796f**/
+
+body{
+    background-color: #ffffff;
+    
+}
+
+table{
+    margin: 150px auto;
+    width: 600px;
+    border-collapse: separate;
+    border: #2f3e46 3px solid;
+    
+   
+}
+th{
+    background-color: #cad2c5;
+    font-size: x-large;
+    text-align: center;
+
+}
+td{
+    background-color: #84a98c;
+    font-size: medium;
+    text-align: left;
+  
+}

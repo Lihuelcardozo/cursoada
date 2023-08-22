@@ -1,0 +1,39 @@
+
+/*
+font-family: 'Archivo', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: 'Archivo', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+#header{
+    margin: auto;
+    width: 1200px;
+}
+

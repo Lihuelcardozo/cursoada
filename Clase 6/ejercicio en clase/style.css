@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #c7c4c4;
+}
+
+/*Header*/
+
+header{
+    background-color:rgb(94, 94, 94) ;
+}
+.nav ul {
+    display: flex;
+    margin: 0%;
+    list-style: none;  
+} 
+
+.nav li{
+    margin: 10px;
+    padding: 5px;
+}
+
+.nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+/*Fin header*/
+
+
+.banner-contenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(144, 144, 145);
+    padding: 5px;
+    margin: 5px;
+}
+
+.banner-img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.banner-contenido{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    width: 100%;
+    
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+}
+
+.conocimientos-contenedor{
+    background-color: blueviolet;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.conocimientos{
+    display: flex;
+    margin-top: 40px;
+
+}
+.subconocimientos{
+    justify-content: space-around;
+    border: solid 2px black;
+    margin: 5px;
+    
+}
+
+.subconocimientos p{
+    text-align: center;
+    margin: 15px;
+}
+
+.subconocimientos img{
+    width: 100px;
+    margin: 10px;
+    padding: 15px;
+   
+}

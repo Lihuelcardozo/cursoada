@@ -1,0 +1,258 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*nos permite incluir el relleno y el borde en el ancho y alto total de un elemento*/
+   
+}
+
+:root{ /*declarar variables*/
+    --paddingseciones: 60px 0;
+    --marginelementos: 40px
+}
+
+/*Header*/
+
+.contenedor{
+    width: 90%; /*Significa que es el ancho que quiero que tenga mi web responsiva*/
+    max-width: 1200px; /*me aseguro que no pase el limite de los 1200*/
+    margin: auto ;
+    overflow: hidden;/* todo lo que revase este contenedor lo va a ocultar*/
+    padding: var(--paddingseciones);
+
+}
+
+.menu-navegacion{
+    padding: 0; /*Quiero que mi menu no tenga un padding a diferencia del contenedor, por eso 0*/
+    display: flex; 
+    justify-content: space-between;/*izquierda*/
+    height: 80px;
+    align-items: center; /*alinear texto*/
+    
+}
+
+.logo{
+    height: 80px; /*quiero que tenga la misma altura que el menu*/
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.enlaces li{
+    list-style: none; /*saca los puntos*/
+    display: inline-block ; /* uno al lado del otro*/
+    
+}
+
+.enlaces a{
+    text-decoration: none; /*saca la linea del enlace*/
+    color: black;
+    padding: 15px;
+    margin: 15px;
+    font-family: 'Archivo', sans-serif;
+    
+
+}
+
+/*Fin del header*/
+
+/*Hero*/
+.hero{
+    
+    height: 500px;
+    background-image: url(https://santajulia.com.ar/wp-content/uploads/2017/02/fincas-santa-julia-la-ribera-1.jpg);
+    opacity: 90%;
+    background-position: center; /*centra la imagen del background*/
+    background-size:cover ; /*expande la imagen*/
+    background-attachment: fixed; /*determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.*/
+}
+.contenedor-texto {
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.hero h1{
+    font-size: xx-large;
+    margin: 15px;
+    color:black;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.hero p{
+    font-size: 25px;
+    margin: 15px;
+    font-family: 'Archivo', sans-serif;
+    
+   
+}
+
+button{
+
+     
+    border-radius: 4px;
+    background-color: #7e96ac;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 16px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+      
+button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+      
+button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+      
+button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+      
+button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+/*Fin header*/
+
+/*Aside*/
+aside{
+    height: 1000px;
+    float: left;
+    background-color: white;
+    width: 300 px;
+    margin-top: 0px;
+    border: solid 1 px color #0f0c29;
+    box-shadow: 2px 2px 5px ; /*sombra*/
+    padding: 30px;
+    box-sizing: border-box; /*hace que se ajusten las medidas*/
+}
+
+aside h3{
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #302b63;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+aside li{
+    list-style: none; 
+    padding: 15px;
+    
+    
+}
+
+aside a{
+    text-decoration: none; 
+    color: black;
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    background-color: #7e96ac;
+    border-radius: 5px;
+   
+}
+
+/*Fin Aside*/
+
+/*Contenido*/
+
+
+article{
+    display: flex;
+}
+h2 {
+    
+    font-size: xx-large;
+    text-align: left;
+    align-content: center;
+    padding: 20px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    text-align: left;
+    line-height: 2em;
+    padding: 20px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Manrope', sans-serif;
+   padding-bottom: 28px;
+
+}
+img{
+    border-radius: 15%;
+    padding: 15px;
+    align-content: center;
+  
+}
+/*Fin de contenido*/
+
+/*Footer*/
+.footer{
+    height: 80px;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+   
+}
+
+.footer p{
+    text-align: center;
+    font-size: 10PX;
+    color: white;
+}
+
+/*Fin footer*/

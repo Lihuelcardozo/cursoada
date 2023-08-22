@@ -1,0 +1,76 @@
+
+
+body {
+   /*Background-color: Determina el fondo del elemento*/
+   /*como elegi body se pinto de azul toda la pagina*/
+   
+    background-color: #00916E;
+    }
+
+h1 {
+    background-color: #FEEFE5;
+    color: #EE6123;
+    text-align: center; /*alineacion de texto*/
+    padding: 10px;
+    margin:100px; /*margen*/
+    }
+
+nav{
+    
+    background-color: #FEEFE5;
+    color: #EE6123;
+    text-align: center;
+    padding: 10px;
+    margin: 100px;
+    
+    }
+ul {
+    list-style: none; /**estilo de lista*/
+    
+}
+li.nav{
+
+    display: inline ;
+    padding-left:100px;
+    padding-right:100px;
+    font-size: 25px ; /**tamaño de fuente**/
+
+}
+main{
+    background-color: #FEEFE5;
+    padding:10px;
+    margin: 100px;
+   
+}
+h2{
+    text-align: center;
+    color: #EE6123;
+    font-size: xx-large ;
+}
+h3{
+    margin: 25px;
+    color: #FA003F;
+}
+
+.center {
+     width: 40%;
+     padding: 30px;
+}
+
+p{
+    margin: 50px;
+}
+
+li.main{
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+
+}
+
+footer{
+    background-color: #FEEFE5;
+    text-align: center;
+    padding:10px;
+    margin: 100px;
+}

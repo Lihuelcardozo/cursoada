@@ -1,0 +1,32 @@
+.card{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 20px 14px 37px -10px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 20px 14px 37px -10px rgba(0,0,0,0.71);
+    -moz-box-shadow: 20px 14px 37px -10px rgba(0,0,0,0.71);
+}
+
+.precio{
+    font-size: x-large;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+main{
+    border:2px solid black;
+    box-shadow: 20px 14px 37px -10px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 20px 14px 37px -10px rgba(0,0,0,0.71);
+    -moz-box-shadow: 20px 14px 37px -10px rgba(0,0,0,0.71);
+}
+
+.button{
+    cursor: pointer;
+    background-color: #DCE35B;
+    border-radius: 10%;
+}
+
